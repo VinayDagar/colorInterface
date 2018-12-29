@@ -1,3 +1,10 @@
+/* 
+*   Adding animations on scroll
+*/
+@keyframes popUp{
+    from { opacity: 0  }
+    to  { opacity: 1}
+}
 
 body{
     background: #ffeded;
@@ -15,6 +22,7 @@ body{
     line-height: normal;
     color: black;
     font-size: 34px;
+    z-index: 100;
 }   
 
 .nav > a{
@@ -324,6 +332,12 @@ h3{
     bottom: 0;
     background: #bebbac;
 }
+
+/*  creating animations */
+.animated {
+    animation: popUp 600 ease-in-out  initial;
+}
+
 @media(max-width:450px){
     .container{
         font-size: 12px;

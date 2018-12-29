@@ -16,6 +16,9 @@ let copy = function (e) {
     
 }
 
-window.addEventListener('scroll', (value) => {
+// window.addEventListener('scroll', (value) => {
+//     let container = document.querySelector('.container');
+//     container.classList.add('animate');
+//     console.log(container.classList)
 
-})
+// })
