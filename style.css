@@ -7,13 +7,18 @@
 }
 
 body{
-    background: #ffeded;
-    font-family: Arial, Helvetica, sans-serif
+    background-image: url("./marbel.jpg");
+    /* background: #ffecec; */
+    box-sizing: border-box;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
 }
 .nav{
     position: fixed;
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     top: 0;
     left: 0;
     right: 0;
@@ -28,6 +33,8 @@ body{
 .nav > a{
     text-decoration: none;
     color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
     padding: 10px;
 }
 
@@ -37,9 +44,14 @@ body{
 
 h3{
     margin-top: 80px;
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
     font-weight: 300;
+    /* text-align: center; */
+    width: 50vw;
+    height: 12vh;
+    left: 0;
+    font-family:'Lobster', cursive;
+    background-image: linear-gradient(to right, #757070,#beafaf,#d1c2c2,#f5e5e5,transparent);
 }
 
 .container{
@@ -47,13 +59,19 @@ h3{
     width: 100vw;
     height: 30vh;
     display: flex;
+    left: 0;
+    right: 0;
     justify-content: space-around;
     color: white;
+    z-index: 10;
 }
 
 .container :hover{
     font-size:30px; 
     cursor: pointer;
+    width: 22vw;
+    height: 33vh;
+    z-index: 100;
 }
 
 .social{
@@ -62,264 +80,297 @@ h3{
 }
 .container--colors-blue-1{
     background: #5050e6;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
+    z-index: 10;
 }
 .container--colors-blue-2{
     background: #8464fa;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-3{
     background: #7878d4;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-4{
     background: #3ebbec;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-5{
     background: #25d6f5;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-6{
     background: #28e6ff;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-7{
     background: #207be4;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-blue-8{
     background: #8843f8;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
     /* Red colors */
 .container--colors-red-1{
     background: #ff3b3b;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-2{
     background: #ff5e2d;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-3{
     background: #fd5b5b;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-4{
     background: #d63c16;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-5{
     background: #d44949;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-6{
     background: #BA2F16;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-7{
     background: #E83350;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-red-8{
     background: #FF362E;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-1{
     background: #11f737;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-2{
     background: #34ff2d;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-3{
     background: #5dfa91;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-4{
     background: #16d660;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-5{
     background: #49d483;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-6{
     background: #1dd8a0;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-7{
     background: #3df0d8;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-green-8{
     background: #07c5cc;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-facebook{
     background: #3b5998;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-google{
     background: #DB4437;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-linkedIn{
     background: #0077b5;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 
 .container--colors-snapchat{
     background: #fffc00;
-    width: 25%;
+    width: 15%;
     color:black;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 
 .container--colors-grey{
     background: #252627;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 
 .container--colors-blackish{
     background: #1e2225;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 
 .container--colors-whitish{
     background: #474c50;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 .container--colors-dark{
     background: #272727;
-    width: 25%;
+    width: 15%;
     height: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 6.8px solid white;
+    left: 0;
+    border-radius: 20px;
     transition: 0.4s;
 }
 
