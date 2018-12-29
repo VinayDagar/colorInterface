@@ -47,6 +47,11 @@ h3{
     font-size:30px; 
     cursor: pointer;
 }
+
+.social{
+    display: inline;
+    justify-content: space-between
+}
 .container--colors-blue-1{
     background: #5050e6;
     width: 25%;
@@ -312,4 +317,18 @@ h3{
 
 .footer{
     text-align: center;
+    height: 18vh;
+    left: 0;
+    font-size: 28px;
+    right: 0;
+    bottom: 0;
+    background: #bebbac;
+}
+@media(max-width:450px){
+    .container{
+        font-size: 12px;
+    }
+    .container :hover{
+        font-size: 14px;
+    }
 }
